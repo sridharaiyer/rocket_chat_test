@@ -1,5 +1,5 @@
 from webium import BasePage
-from hamcrest import *
+from hamcrest import assert_that, contains_string
 
 
 class RCHomePage(BasePage):
